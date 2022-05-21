@@ -35,14 +35,16 @@ body{
     line-height:1.5;
     color:#232323;
     font-family: 'Roboto Mono', monospace;
+    background-color: rgb(223, 223, 151);
 }
 a{
     font-family: 'Roboto Mono', monospace;
     color: rgb(87, 87, 247);
+    text-decoration: none;
 }
 h1{
     font-size:4rem;
-    font-family: ‘poppins’
+    font-family: poppins;
 }
 section{
     padding:4% 0;
@@ -92,7 +94,8 @@ section{
 footer{
     background-color: #b9b9b9;
     height: 15vh;
-    margin-bottom: 2%;
+    margin: 2% 0;
+
 }
 
 .footer_container{
@@ -172,10 +175,9 @@ ol{padding-left: 4.5%;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-right: 1px solid grey;
-    border-left: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     width: 50%;
+    padding: 1%;
 }
 .right_side-container li{list-style:none}
 .right_side-about{
@@ -189,4 +191,16 @@ ol{padding-left: 4.5%;}
 }
 .right_side-container div{
     margin-bottom: 10%;
+}
+
+.random_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.random_images img{
+    width: 50%;    
+    padding-bottom: 5%;
 }
